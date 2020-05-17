@@ -7,7 +7,7 @@ export default [
     url: "https://facebook.com",
   },
   {
-    icon: <FaTwitter />,
+    icon: <FaTwitterSquare />,
     url: "https://twitter.com",
   },
   {
