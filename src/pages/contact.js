@@ -1,7 +1,8 @@
 import React, { Component } from "react"
+import Layout from "../components/Layout"
 
-export default class contact extends Component {
-  render() {
-    return <div>Contact Page</div>
-  }
+const contact = () => {
+  return <Layout>Contact Page</Layout>
 }
+
+export default contact

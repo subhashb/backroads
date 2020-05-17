@@ -1,13 +1,14 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
+import Layout from "../components/Layout"
 
-export default class blog extends Component {
-  render() {
-    return (
-      <div>
-        Hello from Blog Page!!!
-        <Link to="/">Home</Link>
-      </div>
-    )
-  }
+const blog = () => {
+  return (
+    <Layout>
+      Hello from Blog Page!!!
+      <Link to="/">Home</Link>
+    </Layout>
+  )
 }
+
+export default blog

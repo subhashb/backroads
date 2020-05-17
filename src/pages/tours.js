@@ -1,7 +1,9 @@
 import React, { Component } from "react"
 
-export default class tours extends Component {
-  render() {
-    return <div>Hello from Tours Page!!!</div>
-  }
+import Layout from "../components/Layout"
+
+const tours = () => {
+  return <Layout>Hello from Tours Page!!!</Layout>
 }
+
+export default tours
