@@ -42,14 +42,6 @@ const Blog = ({ data }) => {
         const { title, image, text } = node.data.target.fields
         return (
           <div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
             <h1>This is the other post: {title["en-US"]}</h1>
             <img
               width="400"
@@ -57,12 +49,6 @@ const Blog = ({ data }) => {
               alt="another post image"
             />
             {documentToReactComponents(text["en-US"])}
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
           </div>
         )
       },
