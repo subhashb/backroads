@@ -38,5 +38,14 @@ module.exports = {
     },
     `gatsby-plugin-playground`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://adoring-franklin-6636fa.netlify.app",
+        sitemap: "https://adoring-franklin-6636fa.netlify.app/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
   ],
 }

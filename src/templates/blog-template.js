@@ -30,11 +30,7 @@ const Blog = ({ data }) => {
         return (
           <div>
             <h3>this is an awesome image</h3>
-            <img
-              width="400"
-              src={node.data.target.fields.file["en-US"].url}
-              alt="image in post"
-            />
+            <img width="400" src={node.data.target.fields.file["en-US"].url} />
             <p>Image provided by john doe</p>
           </div>
         )
