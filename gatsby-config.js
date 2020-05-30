@@ -12,6 +12,9 @@ module.exports = {
     description:
       "Explore awesome worldwide tours & Discover what makes each of them unique. Forget your daily routine & say yes to adventure",
     author: "@johndoe",
+    twitterUsername: "@SubhashBhushanC",
+    image: "/defaultBcg.jpeg",
+    siteUrl: "https://adoring-franklin-6636fa.netlify.app",
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -34,5 +37,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-playground`,
+    `gatsby-plugin-react-helmet`,
   ],
 }
